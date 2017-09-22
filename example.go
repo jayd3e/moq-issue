@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	"github.com/rainhq/moq_test/subpackage"
+	"github.com/project/moq_test/subpackage"
 )
 
 //go:generate moq -out mockpersonstore_test.go . PersonStore
