@@ -42,6 +42,6 @@ CGO_FFLAGS="-g -O2"
 CGO_LDFLAGS="-g -O2"
 ```
 
-The problem occurs when I try adding a subpackage to your example found [here](https://github.com/matryer/moq/blob/master/example/example.go`.
+The problem occurs when I try adding a subpackage to your example found [here](https://github.com/matryer/moq/blob/master/example/example.go).
 As you can see, this repo matches your example almost exactly, however introduces a single subpackage using the standard import scheme.
 The code compiles via `go build`, but `go generate` does not work, as `moq` errors out.
